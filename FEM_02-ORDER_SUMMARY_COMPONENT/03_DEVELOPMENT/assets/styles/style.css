@@ -1,0 +1,50 @@
+/* font-family: 'Red Hat Display', sans-serif; */
+:root {
+  --color-primary-blue-100: hsl(225, 100%, 94%);
+  --color-primary-blue-200: hsl(245, 75%, 52%);
+  --color-neutral-blue-100: hsl(225, 100%, 98%);
+  --color-neutral-blue-200: hsl(224, 23%, 55%);
+  --color-neutral-blue-300: hsl(223, 47%, 23%);
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: var(--color-neutral-blue-100);
+  min-height: 100vh;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem 0;
+  background-color: var(--color-neutral-blue-200);
+  color: var(--color-neutral-blue-300);
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.footer a,
+.footer a:link {
+  display: inline-block;
+  color: var(n);
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+.footer a:hover {
+  color: #20e889;
+  transform: translateY(-2px);
+}
