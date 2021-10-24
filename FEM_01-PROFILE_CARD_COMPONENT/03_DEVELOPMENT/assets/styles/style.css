@@ -16,6 +16,7 @@ html {
 }
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0;
@@ -106,9 +107,45 @@ img {
   font-weight: 400;
   letter-spacing: 1.5px;
 }
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5rem 0;
+  color: #75c7ce;
+  background-color: #14828b;
+  text-align: center;
+}
+.footer__body {
+  margin: 0;
+  font-size: 0.875rem;
+}
+.footer__body:not(:last-child) {
+  margin-bottom: 0.25rem;
+}
+.footer__link:link,
+.footer__link:visited {
+  color: inherit;
+  font-weight: 700;
+  transition: color 200ms ease-in-out;
+}
+.footer__link:hover,
+.footer__link:active,
+.footer__link:focus {
+  color: #d1ecef;
+  outline: none;
+}
 @media screen and (min-width: 55rem) {
   .card {
     width: 21.875rem;
     box-shadow: 0 50px 100px -20px rgba(8, 70, 94, 50.48%);
+  }
+  .footer__body {
+    display: inline-block;
+    font-size: 1rem;
+  }
+  .footer__body:not(:last-child) {
+    margin-bottom: 0;
+    padding-right: 0.5rem;
   }
 }
