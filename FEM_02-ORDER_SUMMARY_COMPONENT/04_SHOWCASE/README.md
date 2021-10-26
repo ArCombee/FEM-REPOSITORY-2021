@@ -14,7 +14,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
     - [Built with](#built-with)
       - [Tools and applications](#tools-and-applications)
     - [What I learned](#what-i-learned)
-    - [Continued development## Author](#continued-development-author)
+  - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
 ## Overview
@@ -57,7 +57,7 @@ Semantic HTML5 markup
 
 This was challenge number 2, learned more about media queries. Also semantic HTML.
 
-### Continued development## Author
+## Author
 
 - Website - [arjencombee.nl](https://arjencombee.nl)
 - Frontend Mentor - [@ArCombee](https://www.frontendmentor.io/profile/ArCombee)
